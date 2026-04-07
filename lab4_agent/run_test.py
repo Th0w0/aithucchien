@@ -7,7 +7,9 @@ TEST_CASES = [
     "Tìm giúp tôi chuyến bay từ Hà Nội đến Đà Nẵng",
     "Tôi ở Hà Nội, muốn đi Phú Quốc 2 đêm, budget 5 triệu. Tư vấn giúp tôi!",
     "Tôi muốn đặt khách sạn",
-    "Giải giúp tôi bài tập linked list",  # case phải bị từ chối
+    "Giải giúp tôi bài tập linked list", # case phải bị từ chối
+    "Cho tôi tìm chuyến bay từ Hà Nội đến Cần Thơ",
+    "Không tìm thấy khách sạn tại Đà Nẵng với giá dưới 100,000đ.",
 ]
 
 def print_divider():

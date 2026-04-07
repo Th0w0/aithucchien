@@ -86,7 +86,6 @@ def search_flights(origin: str, destination: str) -> str:
     else:
         return f"Không tìm thấy chuyến bay từ {origin} đến {destination}."
     flights.sort(key=lambda x: x["price"])
-    flights = flights[:3]
 
     result = []
     for f in flights:
